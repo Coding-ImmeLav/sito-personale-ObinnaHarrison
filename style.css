@@ -6,6 +6,19 @@
     height: 90vh;
 }
 footer {
-    height: 13vh;
+    padding-bottom: 1%;
+    padding-top: 1%;
     background-color: cadetblue;
+}
+.mezzo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contatti p{
+display: flex;
+align-items: center;
+}
+.passioni{
+    height: 50vh;
 }
