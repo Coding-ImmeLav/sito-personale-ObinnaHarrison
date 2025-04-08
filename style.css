@@ -20,5 +20,17 @@ display: flex;
 align-items: center;
 }
 .passioni{
-    height: 50vh;
+    height: 80vh;
+    background-color: aqua;
+}
+.foglio{
+    padding: 3%;
+    border: 1px solid black;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999; /*tenere tutto davanti*/
 }
