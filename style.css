@@ -8,7 +8,7 @@
 footer {
     padding-bottom: 1%;
     padding-top: 1%;
-    background-color: cadetblue;
+    background-color: white;
 }
 .mezzo{
     display: flex;
@@ -20,8 +20,8 @@ display: flex;
 align-items: center;
 }
 .passioni{
-    height: 80vh;
-    background-color: aqua;
+    height: 40vh;
+    
 }
 .foglio{
     padding: 3%;
@@ -34,3 +34,54 @@ align-items: center;
     top: 0;
     z-index: 999; /*tenere tutto davanti*/
 }
+
+body {
+    margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+  background-size: 400% 400%;
+  animation: sfondo 10s ease infinite;
+  background-attachment: fixed; /* ✅ Aggiunto per evitare salti */
+  }
+  
+  /* Animazione */
+  @keyframes sfondo {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Stile della card */
+  .card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .nome-animato {
+    animation: fadeIn 2s ease-in-out;
+  }
+  .nome-underline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nome-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background-color: #fff;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .nome-underline:hover::after {
+    width: 100%;
+  }
