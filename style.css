@@ -19,10 +19,24 @@ footer {
 display: flex;
 align-items: center;
 }
-.passioni{
-    height: 40vh;
-    
+.sezione-interessi {
+  animation: ondaSfumata 15s ease-in-out infinite;
+  background: linear-gradient(270deg, #080808, #042e5c, #25cdfc, #4b4949);
+  background-size: 600% 600%;
 }
+
+@keyframes ondaSfumata {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .foglio{
     padding: 3%;
     border: 1px solid black;
