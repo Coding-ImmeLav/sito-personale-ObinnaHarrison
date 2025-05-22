@@ -36,30 +36,141 @@
             </div>
             </div>
         </nav>
+        <!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Relazione Stage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #121217; /* scuro ma uniforme */
+      color: #f5f5f7; /* bianco sporco molto leggibile */
+      line-height: 1.8; /* più aria tra le righe */
+      font-size: 18px;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 720px; /* per leggere meglio evitando righe troppo lunghe */
+      margin: 0 auto;
+    }
+    h1.section-title {
+      font-size: 2.8rem;
+      text-align: center;
+      margin-bottom: 50px;
+      font-weight: 700;
+      color: #5a9bd6;
+      letter-spacing: 0.05em;
+    }
+    h3.subtitle {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #7fc4ff;
+      border-bottom: 2px solid #5a9bd6;
+      padding-bottom: 6px;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 25px;
+      color: #e2e2e6;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 60px;
+      align-items: flex-start;
+    }
+    .col-6 {
+      flex: 1 1 48%;
+      min-width: 280px;
+    }
+    img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 1);
+    }
+    @media (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
+      .col-6 {
+        flex: 1 1 100%;
+      }
+      .container {
+        max-width: 100%;
+        padding: 0 10px;
+      }
+      h1.section-title {
+        font-size: 2.2rem;
+        margin-bottom: 40px;
+      }
+      h3.subtitle {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
 
-        <section class="hero">
-          <h1>Stage</h1>
-        </section>
+ <section class="container" style="max-width: 900px; margin: auto; padding: 20px; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+  <h1 class="section-title" style="text-align: center; font-size: 2.5rem; margin-bottom: 30px; color: #2980b9;">Stage</h1>
 
-        <section class="stage ps-5 pe">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-6">
-                <h3>Introduzione</h3>
-                <p>Introduzione stage jhdddhj</p>
-          </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <h3>Sottotitolo</h3>
-                <p>Relazione completa agaggagagagagaaga</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <img src="..." class="img-fluid" alt="...">
-            </div>
-          </div>
-        </section>
+  <!-- Prima riga: Introduzione -->
+  <div class="row" style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 50px;">
+    <div class="col-6" style="flex: 1 1 50%; padding-right: 20px;">
+      <h3 class="subtitle" style="font-size: 1.8rem; margin-bottom: 15px; color: #2980b9;">Introduzione</h3>
+      <p style="font-size: 1.15rem;">
+        La scuola Immaginazione e lavoro offre, a partire dal secondo anno, uno stage curriculare presso aziende del settore di studio. Per il quarto anno di tecnico informatico, è previsto uno stage di 495 ore presso aziende digitali. Questo permette di entrare nel mondo del lavoro e migliorare sia le capacità tecniche sia quelle relazionali.
+      </p>
+      <p style="font-size: 1.15rem;">
+        Durante lo stage, gli stagisti sono seguiti da un tutor aziendale. Prima di iniziare, è necessario firmare alcuni documenti: lo schema di progetto formativo, che contiene dati e obiettivi firmati da studente, genitore, scuola e azienda; il registro ore, dove si annotano entrate, pause, uscite e attività giornaliere, firmato quotidianamente; infine, il credito valutativo, che valuta puntualità, propositività, presenza e comportamento.
+      </p>
+    </div>
+    <div class="col-6" style="flex: 1 1 50%; text-align: center;">
+    <img src="../img/immaginazioneelavoro.png" alt="...">    </div>
+  </div>
+
+  <!-- Seconda riga: Relazione stage -->
+  <div class="row" style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div class="col-6" style="flex: 1 1 50%; padding-right: 20px;">
+      <h3 class="subtitle" style="font-size: 1.8rem; margin-bottom: 15px; color: #2980b9;">Relazione stage</h3>
+      <p style="font-size: 1.15rem;">
+        Ho svolto il tirocinio presso la Pine-apple, cooperativa fondata nel 2019 che offre assistenza informatica sia da remoto che di persona. Si trova alla Casa dei Giochi in Via Sant’Uguzzone 8, un luogo dedicato ai ragazzi con attività di vario tipo.
+      </p>
+      <p style="font-size: 1.15rem;">
+        Il nostro orario era dalle 9:00 alle 18:00, per 8 ore giornaliere. Io e i miei compagni stavamo in un'aula spaziosa usata anche per tornei, accanto all’ufficio della Pine-apple. Silvia era la nostra tutor, Enrico il capo e Paolo un dipendente, tutti impegnati in assistenza clienti.
+      </p>
+      <p style="font-size: 1.15rem;">
+        La mia mansione è stata creare un gioco di carte basato sul sumo, usando Photoshop e Illustrator. Dopo aver studiato le regole del sumo, abbiamo progettato e realizzato le carte, stampandole con un contenitore personalizzato. Infine, abbiamo presentato il gioco a scuola, facendo giocare alcune classi.
+      </p>
+      <p style="font-size: 1.15rem;">
+        Silvia mi ha proposto la Pine-apple perché mi riteneva adatto. È stata un’esperienza positiva e mi sono trovato bene con Enrico e Silvia. In passato ho fatto stage anche in altre aziende, con esperienze sia buone sia meno stimolanti.
+      </p>
+      <p style="font-size: 1.15rem;">
+        I miei punti di forza durante lo stage sono stati puntualità, disponibilità, presenza e rispetto delle consegne. I punti deboli sono stati il rapporto con gli adulti e la comunicazione, che vorrei migliorare insieme alla capacità di lavorare in gruppo. Per il futuro, voglio potenziare le mie competenze tecniche e relazionali continuando a studiare.
+      </p>
+    </div>
+    <div class="col-6" style="flex: 1 1 50%; text-align: center;">
+      <img src="../img/Logo-Pine-Apple-Ext-H250px.png" alt="...">>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
